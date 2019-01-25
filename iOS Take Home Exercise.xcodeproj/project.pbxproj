@@ -14,6 +14,7 @@
 		1C2C34D221FB50A800482E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C34D021FB50A800482E87 /* LaunchScreen.storyboard */; };
 		1C2C34DD21FB50A800482E87 /* iOS_Take_Home_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34DC21FB50A800482E87 /* iOS_Take_Home_ExerciseTests.swift */; };
 		1C2C34E821FB50A800482E87 /* iOS_Take_Home_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34E721FB50A800482E87 /* iOS_Take_Home_ExerciseUITests.swift */; };
+		1C2C34F921FB573000482E87 /* iOSScoreboardMockup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C34F821FB573000482E87 /* iOSScoreboardMockup.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		1C2C34E321FB50A800482E87 /* iOS Take Home ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Take Home ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2C34E721FB50A800482E87 /* iOS_Take_Home_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Take_Home_ExerciseUITests.swift; sourceTree = "<group>"; };
 		1C2C34E921FB50A800482E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2C34F521FB512C00482E87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1C2C34F821FB573000482E87 /* iOSScoreboardMockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSScoreboardMockup.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		1C2C34BB21FB50A600482E87 = {
 			isa = PBXGroup;
 			children = (
+				1C2C34F521FB512C00482E87 /* README.md */,
+				1C2C34F821FB573000482E87 /* iOSScoreboardMockup.png */,
 				1C2C34C621FB50A600482E87 /* iOS Take Home Exercise */,
 				1C2C34DB21FB50A800482E87 /* iOS Take Home ExerciseTests */,
 				1C2C34E621FB50A800482E87 /* iOS Take Home ExerciseUITests */,
@@ -229,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2C34F921FB573000482E87 /* iOSScoreboardMockup.png in Resources */,
 				1C2C34D221FB50A800482E87 /* LaunchScreen.storyboard in Resources */,
 				1C2C34CF21FB50A800482E87 /* Assets.xcassets in Resources */,
 				1C2C34CD21FB50A600482E87 /* Main.storyboard in Resources */,
