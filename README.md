@@ -37,5 +37,5 @@ Create a User Interface that displays the information provided by the JSON endpo
 
 Notes:
   - The app should work on both iPhone and iPad.  The vast majority of our users are on iPhones, which is why only an iPhone mockup is provided.  The UI/layout choices for the iPad version are up to you. 
-  - All image assets, including the team logos, MLB logo and the tab bar icon, will not be provided, and should be replaced with generic placeholders of your choosing.
+  - Image assets are not provided - all images depicted in the mockup may be omitted from the app.
   - The font faces, sizes and colors should approximate the mockup, but need not be exact.
