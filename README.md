@@ -2,10 +2,10 @@
 
 ## Objective
 The goal of this exercise is to demonstrate that given:
-- a service endpoint, that returns structured data in JSON format
-- a design
+- A service endpoint that returns structured data in JSON format
+- A design mockup
 
-That you can build a working example that demonstrates the following:
+That you can build a working example which demonstrates the following:
 - Retrieve serialized JSON data from an endpoint and parse it into a data structure
 - Use that deserialized data in a visualized User Interface that presents the information to the user of the app in a meaningful way
 
@@ -20,27 +20,22 @@ Meanwhile, the design team has provided a mockup of what they would like the sco
 
 ![iOS Scoreboard Mock Up](iOSScoreboardMockup.png)
 
-
 ## Tasks
 Create a User Interface that displays the information provided by the JSON endpoint with the following:
-- A view displaying a view of all the games and their current score for a given date
-- A means for the user to navigate to a specific date via a date picker accessible from the header shown in the mockup
-- The list of games shall be sorted by the start time of the game as provided in the data
-- Each game shall display:
-  - the 2 teams playing, with away team above the home team
-  - Each team's name and score
-  - The state of the game:
-  - For games not started, show the start time on the right-hand side
-  - For games in progress, show the inning
-  - For games completed, show `Final`
-  - If a game was completed in more or less than the usual 9 innings, show `F/#` where the # is the number of innings played (e.g. `F/10` or `F/6`)
-- Each game view should be tappable to display a detailed view of the game
-  - **NOTE:** The contents of the detailed game view is optional and an exercise left up to the author to be as creative as desired
+- A view displaying all the games and their current score for a given date
+- A means for the user to navigate to a specific date via a date picker accessible from the header, as shown in the mockup
+- The list of games should be sorted by the start time of the game as provided in the data
+- Each game in the list should display:
+  - On the left: the two teams playing, always starting with the 'away' team followed by the 'home' team
+  - In the middle: each team's name and score
+  - On the right: the state of the game:
+    - For games that have not yet started, show the starting time
+    - For games that are in progress, show the current inning
+    - For games that have already completed, show the word `Final`
+    - If a game was completed in more or fewer than the usual nine innings, show `F/#` where the # is the number of innings played (e.g. `F/6` or `F/10`)
+- Tapping a game in the list should display a detailed view of the game.  The choice of which data elements to display in the detail view, as well as the layout of those elements, are entirely up to you.
 
-For this exercise you may IGNORE:
-  - The team logos
-  - The MLB logo in the header and the icon associated with tab icon
-  - Any specific design considerations around colors, fonts or sizing as long as the data is shown on screen
-
-  Ideally the implementation will be responsive to look reasonably the same and complete on iPad as well as iPhone, but as iPhone users are a
-  vast majority of the overall user base, matching the iPhone mockup is the priority for this exercise
+Notes:
+  - The app should work on both iPhone and iPad.  The vast majority of our users are on iPhones, which is why only an iPhone mockup is provided.  The UI/layout choices for the iPad version are up to you. 
+  - All image assets, including the team logos, MLB logo and the tab bar icon, will not be provided, and should be replaced with generic placeholders of your choosing.
+  - The font faces, sizes and colors should approximate the mockup, but need not be exact.
