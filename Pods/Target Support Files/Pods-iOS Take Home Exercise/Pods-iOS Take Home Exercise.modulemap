@@ -1,0 +1,6 @@
+framework module Pods_iOS_Take_Home_Exercise {
+  umbrella header "Pods-iOS Take Home Exercise-umbrella.h"
+
+  export *
+  module * { export * }
+}

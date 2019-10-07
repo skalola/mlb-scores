@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C2C34C821FB50A600482E87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34C721FB50A600482E87 /* AppDelegate.swift */; };
-		1C2C34CA21FB50A600482E87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34C921FB50A600482E87 /* ViewController.swift */; };
+		1C2C34CA21FB50A600482E87 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34C921FB50A600482E87 /* ScoreboardViewController.swift */; };
 		1C2C34CD21FB50A600482E87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C34CB21FB50A600482E87 /* Main.storyboard */; };
 		1C2C34CF21FB50A800482E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C34CE21FB50A800482E87 /* Assets.xcassets */; };
 		1C2C34D221FB50A800482E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C34D021FB50A800482E87 /* LaunchScreen.storyboard */; };
 		1C2C34DD21FB50A800482E87 /* iOS_Take_Home_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34DC21FB50A800482E87 /* iOS_Take_Home_ExerciseTests.swift */; };
 		1C2C34E821FB50A800482E87 /* iOS_Take_Home_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C34E721FB50A800482E87 /* iOS_Take_Home_ExerciseUITests.swift */; };
 		1C2C34F921FB573000482E87 /* iOSScoreboardMockup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C34F821FB573000482E87 /* iOSScoreboardMockup.png */; };
+		2DAD272B1F6955A73ECCE8D6 /* Pods_iOS_Take_Home_Exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005578B01B9DE1EF365D1591 /* Pods_iOS_Take_Home_Exercise.framework */; };
+		41C8766A234197B100762484 /* GameDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C87669234197B100762484 /* GameDetailsTableViewCell.xib */; };
+		41C8766C234197BD00762484 /* ScoreboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C8766B234197BD00762484 /* ScoreboardTableViewCell.xib */; };
+		41C8766E23419BE700762484 /* ScoreboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C8766D23419BE700762484 /* ScoreboardTableViewCell.swift */; };
+		41C8767023419BF200762484 /* GameDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C8766F23419BF200762484 /* GameDetailsTableViewCell.swift */; };
+		41C8767A2341A20000762484 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C876792341A20000762484 /* Game.swift */; };
+		41C8767C2341A20E00762484 /* GameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C8767B2341A20E00762484 /* GameDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005578B01B9DE1EF365D1591 /* Pods_iOS_Take_Home_Exercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Take_Home_Exercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2C34C421FB50A600482E87 /* iOS Take Home Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Take Home Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2C34C721FB50A600482E87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C2C34C921FB50A600482E87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C2C34C921FB50A600482E87 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
 		1C2C34CC21FB50A600482E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C2C34CE21FB50A800482E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C2C34D121FB50A800482E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +58,14 @@
 		1C2C34E921FB50A800482E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2C34F521FB512C00482E87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C2C34F821FB573000482E87 /* iOSScoreboardMockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSScoreboardMockup.png; sourceTree = "<group>"; };
+		41C87669234197B100762484 /* GameDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		41C8766B234197BD00762484 /* ScoreboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreboardTableViewCell.xib; sourceTree = "<group>"; };
+		41C8766D23419BE700762484 /* ScoreboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardTableViewCell.swift; sourceTree = "<group>"; };
+		41C8766F23419BF200762484 /* GameDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		41C876792341A20000762484 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		41C8767B2341A20E00762484 /* GameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsViewController.swift; sourceTree = "<group>"; };
+		5102B2D72E84879E9414B285 /* Pods-iOS Take Home Exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Take Home Exercise.debug.xcconfig"; path = "Target Support Files/Pods-iOS Take Home Exercise/Pods-iOS Take Home Exercise.debug.xcconfig"; sourceTree = "<group>"; };
+		84969A810C91134765B4B191 /* Pods-iOS Take Home Exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Take Home Exercise.release.xcconfig"; path = "Target Support Files/Pods-iOS Take Home Exercise/Pods-iOS Take Home Exercise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAD272B1F6955A73ECCE8D6 /* Pods_iOS_Take_Home_Exercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +103,8 @@
 				1C2C34DB21FB50A800482E87 /* iOS Take Home ExerciseTests */,
 				1C2C34E621FB50A800482E87 /* iOS Take Home ExerciseUITests */,
 				1C2C34C521FB50A600482E87 /* Products */,
+				FB714525C0834FAF56F1C4B8 /* Pods */,
+				29C18901CE92D31A82BE4DFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +121,10 @@
 		1C2C34C621FB50A600482E87 /* iOS Take Home Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				412CB47523413C2000BC40A9 /* Model */,
+				412CB47623413C2C00BC40A9 /* View */,
+				412CB47723413C3900BC40A9 /* Controller */,
 				1C2C34C721FB50A600482E87 /* AppDelegate.swift */,
-				1C2C34C921FB50A600482E87 /* ViewController.swift */,
 				1C2C34CB21FB50A600482E87 /* Main.storyboard */,
 				1C2C34CE21FB50A800482E87 /* Assets.xcassets */,
 				1C2C34D021FB50A800482E87 /* LaunchScreen.storyboard */,
@@ -130,6 +151,51 @@
 			path = "iOS Take Home ExerciseUITests";
 			sourceTree = "<group>";
 		};
+		29C18901CE92D31A82BE4DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005578B01B9DE1EF365D1591 /* Pods_iOS_Take_Home_Exercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		412CB47523413C2000BC40A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41C876792341A20000762484 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		412CB47623413C2C00BC40A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41C8766F23419BF200762484 /* GameDetailsTableViewCell.swift */,
+				41C87669234197B100762484 /* GameDetailsTableViewCell.xib */,
+				41C8766D23419BE700762484 /* ScoreboardTableViewCell.swift */,
+				41C8766B234197BD00762484 /* ScoreboardTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		412CB47723413C3900BC40A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C34C921FB50A600482E87 /* ScoreboardViewController.swift */,
+				41C8767B2341A20E00762484 /* GameDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB714525C0834FAF56F1C4B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5102B2D72E84879E9414B285 /* Pods-iOS Take Home Exercise.debug.xcconfig */,
+				84969A810C91134765B4B191 /* Pods-iOS Take Home Exercise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C2C34EC21FB50A900482E87 /* Build configuration list for PBXNativeTarget "iOS Take Home Exercise" */;
 			buildPhases = (
+				D02667D883C3638E5D130BFE /* [CP] Check Pods Manifest.lock */,
 				1C2C34C021FB50A600482E87 /* Sources */,
 				1C2C34C121FB50A600482E87 /* Frameworks */,
 				1C2C34C221FB50A600482E87 /* Resources */,
+				C8237AFB8A414C7016EA4EFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,9 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2C34F921FB573000482E87 /* iOSScoreboardMockup.png in Resources */,
+				41C8766A234197B100762484 /* GameDetailsTableViewCell.xib in Resources */,
 				1C2C34D221FB50A800482E87 /* LaunchScreen.storyboard in Resources */,
 				1C2C34CF21FB50A800482E87 /* Assets.xcassets in Resources */,
 				1C2C34CD21FB50A600482E87 /* Main.storyboard in Resources */,
+				41C8766C234197BD00762484 /* ScoreboardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +330,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8237AFB8A414C7016EA4EFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Take Home Exercise/Pods-iOS Take Home Exercise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Take Home Exercise/Pods-iOS Take Home Exercise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Take Home Exercise/Pods-iOS Take Home Exercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02667D883C3638E5D130BFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Take Home Exercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C2C34C021FB50A600482E87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C2C34CA21FB50A600482E87 /* ViewController.swift in Sources */,
+				41C8767C2341A20E00762484 /* GameDetailsViewController.swift in Sources */,
+				41C8767023419BF200762484 /* GameDetailsTableViewCell.swift in Sources */,
+				41C8767A2341A20000762484 /* Game.swift in Sources */,
+				1C2C34CA21FB50A600482E87 /* ScoreboardViewController.swift in Sources */,
+				41C8766E23419BE700762484 /* ScoreboardTableViewCell.swift in Sources */,
 				1C2C34C821FB50A600482E87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +555,7 @@
 		};
 		1C2C34ED21FB50A900482E87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5102B2D72E84879E9414B285 /* Pods-iOS Take Home Exercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +574,7 @@
 		};
 		1C2C34EE21FB50A900482E87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84969A810C91134765B4B191 /* Pods-iOS Take Home Exercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
